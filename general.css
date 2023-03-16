@@ -1,0 +1,118 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    background-size: cover;
+}
+/*-------------------------------------------------------------------------*/
+/*                             NAVIGATION BAR                              */
+/*-------------------------------------------------------------------------*/ 
+#Navigation_Bar
+{
+    margin: 0 auto;
+    top: 0px;
+    left: 0px;
+    padding: 1em 0em;
+    text-align: right;
+    height: 20px;
+    background-color: #ecffe3;
+}
+ 
+div.Navigation_Bar a
+{
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    font: 20px bold;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+/* Top and Bottom borders come in */
+div.Navigation_Link a:before, div.Navigation_Link a:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: rgb(0, 0, 0);
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+div.Navigation_Link a:before
+{
+    top: 0px;
+    transform: translateY(-10px);
+}
+
+div.Navigation_Link a:after
+{
+    bottom: 0px;
+    transform: translateY(10px);
+}
+
+div.Navigation_Link a:hover:before, div.Navigation_Link a:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.sticky 
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.sticky + .div_MainContainer 
+{
+    padding-top: 60px;
+}
+
+/*-------------------------------------------------------------------------*/
+/*                                 FOOTER                                  */
+/*-------------------------------------------------------------------------*/ 
+div.div_footer
+{
+    background-color: black;
+    display: flex;
+    width: 100%; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.footer_column 
+{
+    flex: 33.33%;
+    height: 180px;
+    padding: 8px;
+    margin: 40px;
+    text-align: center;
+}
+
+.opening_hours_column
+{
+    margin-top: -25px;; 
+    display: flex; 
+    width: 60%; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.footer_font_1
+{
+    font-size: medium; 
+    color: white; 
+    font-family:'serif';
+}
+
+.opening_hour_font
+{
+    flex: 50%; 
+    font-size: medium; 
+    color: white; 
+    font-family:'serif';
+}

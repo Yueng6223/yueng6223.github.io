@@ -1,0 +1,46 @@
+body
+{
+    background-color: #ecffe3;
+}
+
+.column 
+{
+    flex: 33.33%;
+    height: 28%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 30%;
+    text-align: center;
+  }
+
+.div_ProjectsGallery 
+{
+    display: flex;
+    width: 70%; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.img_ProjectsGallery
+{
+    width:100%; 
+    border-radius: 20%;  
+}
+
+.img_ProjectsGallery:hover
+{
+    opacity: 70%;
+}
+
+.ProjectName
+{
+    color: black;
+    font-family:'serif';
+    font-size: large;
+    text-decoration: none;
+}
+
+.ProjectName:hover
+{
+    font-weight: bold;
+}

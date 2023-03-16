@@ -1,0 +1,98 @@
+body
+{
+    background-color: #ecffe3;
+}
+
+/*-------------------------------------------------------------------*/
+/*                           INFORMATION COLUMN                      */
+/*-------------------------------------------------------------------*/
+
+.column 
+{
+    flex: 33.33%;
+    height: 200px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #163e3a;
+    text-align: center;
+    border-radius: 10%;
+  }
+
+.div_InformationColumn 
+{
+    display: flex;
+    width: 70%; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+/*-------------------------------------------------------------------*/
+/*                               SLIDE SHOW                          */
+/*-------------------------------------------------------------------*/
+/* Slideshow container */
+.slideshow-container {
+    max-width: 70%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 2s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+
+/*-------------------------------------------------------------------*/
+/*                                 FOOTER                            */
+/*-------------------------------------------------------------------*/
+
+.top_line 
+{
+    font-size:xxx-large; 
+    color: white;
+    font-weight: bold;
+}
+
+.bottom_line 
+{
+    font-size:x-large; 
+    color: white;
+    font-weight: bold;
+}
+

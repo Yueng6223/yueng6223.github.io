@@ -1,0 +1,33 @@
+body
+{
+    background-color: #ecffe3;
+}
+
+.div_ProjectTitle
+{
+    font-size: xxx-large;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Apple Chancery, cursive;
+    text-align: center;
+}
+
+/*-------------------------------------------------------------------*/
+/*                           INFORMATION COLUMN                      */
+/*-------------------------------------------------------------------*/
+
+.column 
+{
+    padding: 10px;
+    margin: 5px;
+    text-align: left;
+    font-family: Apple Chancery, cursive;
+  }
+
+.div_InformationColumn 
+{
+    display: flex;
+    width: 70%; 
+    margin-left: auto; 
+    margin-right: auto;
+}
